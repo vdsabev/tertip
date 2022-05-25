@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "tertip",
+  "version": "1.0.0",
+  "description": "Тертиплийски местенца",
+  "author": "Vlad Sabev",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "chokidar": "3.5.3",
+    "htm": "3.1.1",
+    "lowdb": "3.0.0",
+    "vhtml": "2.2.0"
+  }
+}
