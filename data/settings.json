@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "baseUrl": "tertip.netlify.app",
+  "title": "Тертиплийски местенца",
+  "description": "by МиРоСи™",
+  "pages": {
+    "/": {
+      "component": "App.vue"
+    }
+  },
+  "datasources": {
+    "links": {
+      "url": "https://docs.google.com/spreadsheets/d/1_hkupn-3m9YL-lCuullswt3JNaHtzvkzauAOAvGVZRg",
+      "options": {
+        "range": "Links!A:C",
+        "columns": {
+          "Image": "image",
+          "Text": "text",
+          "URL": "url"
+        }
+      }
+    }
+  }
+}

@@ -1,21 +1,11 @@
 {
-  "private": true,
-  "name": "tertip",
-  "version": "1.0.0",
-  "description": "Тертиплийски местенца",
-  "author": "Vlad Sabev",
-  "type": "module",
-  "engines": {
-    "node": ">=14.16"
-  },
   "scripts": {
-    "build": "node build.js",
-    "start": "node start.js"
+    "start": "nodemon --watch .env --watch data --exec \"cd node_modules/cmless && npm start\""
   },
   "dependencies": {
-    "chokidar": "3.5.3",
-    "htm": "3.1.1",
-    "lowdb": "3.0.0",
-    "vhtml": "2.2.0"
+    "cmless": "1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.16"
   }
 }
